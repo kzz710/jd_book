@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Test";
+}
+@using Bookshop.Model;
+
+@{
+    List<Books> books=(List<Books>)ViewData["books"];
+    <table>
+        @foreach (var book in books)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.ISBN</td>
+                <td>@book.Title</td>
+                
+                <td>@book.PublishDate</td>
+            </tr>
+        }
+        
+    </table>
+    }

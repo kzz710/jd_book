@@ -1,0 +1,310 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  background-color: #fff;
+}
+.register-logo {
+  background-color: #fff;
+  height: 110px;
+  box-shadow: 1px 1px 14px #a0b4d3;
+}
+.register-logo .logo-img a {
+  display: block;
+  width: 160px;
+  height: 50px;
+  float: left;
+  background: url("../image/zhuce-icon.png") 0 0 no-repeat;
+  margin-top: 25px;
+}
+.register-logo .logo-title {
+  float: left;
+  font-size: 24px;
+  margin-top: 35px;
+}
+.register-logo .logo-login {
+  float: right;
+  margin-top: 55px;
+}
+.register-logo .logo-login span {
+  font-size: 18px;
+}
+.register-logo .logo-login span a {
+  font-size: 18px;
+  text-decoration: none;
+}
+.register-content .main {
+  width: 830px;
+  margin: 50px auto 60px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid black;
+}
+.register-content .main .main-form {
+  width: 499px;
+  border-right: 1px solid black;
+  float: left;
+  padding-bottom: 50px;
+}
+.register-content .main .main-form .account,
+.register-content .main .main-form .pwd,
+.register-content .main .main-form .cpwd,
+.register-content .main .main-form .tel,
+.register-content .main .main-form .validateCode,
+.register-content .main .main-form .telCode,
+.register-content .main .main-form .email {
+  height: 52px;
+  width: 400px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.register-content .main .main-form .account label,
+.register-content .main .main-form .pwd label,
+.register-content .main .main-form .cpwd label,
+.register-content .main .main-form .tel label,
+.register-content .main .main-form .validateCode label,
+.register-content .main .main-form .telCode label,
+.register-content .main .main-form .email label {
+  font-size: 16px;
+  float: left;
+  display: block;
+  height: 52px;
+  width: 90px;
+  padding-left: 20px;
+  line-height: 52px;
+  text-align: justify;
+  font-weight: 400;
+}
+.register-content .main .main-form .account input,
+.register-content .main .main-form .pwd input,
+.register-content .main .main-form .cpwd input,
+.register-content .main .main-form .tel input,
+.register-content .main .main-form .validateCode input,
+.register-content .main .main-form .telCode input,
+.register-content .main .main-form .email input {
+  height: 50px;
+  width: 280px;
+  border: none;
+  float: left;
+  padding-left: 10px;
+}
+.register-content .main .main-form .account input:focus,
+.register-content .main .main-form .pwd input:focus,
+.register-content .main .main-form .cpwd input:focus,
+.register-content .main .main-form .tel input:focus,
+.register-content .main .main-form .validateCode input:focus,
+.register-content .main .main-form .telCode input:focus,
+.register-content .main .main-form .email input:focus {
+  outline: none;
+}
+.register-content .main .main-form .account .status,
+.register-content .main .main-form .pwd .status,
+.register-content .main .main-form .cpwd .status,
+.register-content .main .main-form .tel .status,
+.register-content .main .main-form .validateCode .status,
+.register-content .main .main-form .telCode .status,
+.register-content .main .main-form .email .status {
+  display: none;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 17px;
+  right: 15px;
+  background: url("../image/zhuce-icon.png") 0px -116px no-repeat;
+  padding: 0;
+}
+.register-content .main .main-form .account .info,
+.register-content .main .main-form .pwd .info,
+.register-content .main .main-form .cpwd .info,
+.register-content .main .main-form .tel .info,
+.register-content .main .main-form .validateCode .info,
+.register-content .main .main-form .telCode .info,
+.register-content .main .main-form .email .info,
+.register-content .main .main-form .account .error,
+.register-content .main .main-form .pwd .error,
+.register-content .main .main-form .cpwd .error,
+.register-content .main .main-form .tel .error,
+.register-content .main .main-form .validateCode .error,
+.register-content .main .main-form .telCode .error,
+.register-content .main .main-form .email .error {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  display: none;
+}
+.register-content .main .main-form .account .info i,
+.register-content .main .main-form .pwd .info i,
+.register-content .main .main-form .cpwd .info i,
+.register-content .main .main-form .tel .info i,
+.register-content .main .main-form .validateCode .info i,
+.register-content .main .main-form .telCode .info i,
+.register-content .main .main-form .email .info i,
+.register-content .main .main-form .account .error i,
+.register-content .main .main-form .pwd .error i,
+.register-content .main .main-form .cpwd .error i,
+.register-content .main .main-form .tel .error i,
+.register-content .main .main-form .validateCode .error i,
+.register-content .main .main-form .telCode .error i,
+.register-content .main .main-form .email .error i {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 17px;
+  height: 24px;
+  background: url("../image/zhuce-icon.png") 0px -92px no-repeat;
+}
+.register-content .main .main-form .account .info span,
+.register-content .main .main-form .pwd .info span,
+.register-content .main .main-form .cpwd .info span,
+.register-content .main .main-form .tel .info span,
+.register-content .main .main-form .validateCode .info span,
+.register-content .main .main-form .telCode .info span,
+.register-content .main .main-form .email .info span,
+.register-content .main .main-form .account .error span,
+.register-content .main .main-form .pwd .error span,
+.register-content .main .main-form .cpwd .error span,
+.register-content .main .main-form .tel .error span,
+.register-content .main .main-form .validateCode .error span,
+.register-content .main .main-form .telCode .error span,
+.register-content .main .main-form .email .error span {
+  color: #d4d4d4;
+  padding-left: 27px;
+}
+.register-content .main .main-form .account .error i,
+.register-content .main .main-form .pwd .error i,
+.register-content .main .main-form .cpwd .error i,
+.register-content .main .main-form .tel .error i,
+.register-content .main .main-form .validateCode .error i,
+.register-content .main .main-form .telCode .error i,
+.register-content .main .main-form .email .error i {
+  background: url("../image/zhuce-icon.png") -16px -92px no-repeat;
+}
+.register-content .main .main-form .account .error span,
+.register-content .main .main-form .pwd .error span,
+.register-content .main .main-form .cpwd .error span,
+.register-content .main .main-form .tel .error span,
+.register-content .main .main-form .validateCode .error span,
+.register-content .main .main-form .telCode .error span,
+.register-content .main .main-form .email .error span {
+  color: red;
+}
+.register-content .main .main-form .tel label {
+  border-right: 1px solid #ddd;
+  width: 89px;
+}
+.register-content .main .main-form .validateCode input {
+  width: 160px;
+}
+.register-content .main .main-form .validateCode .code {
+  width: 110px;
+  margin: 5px;
+  height: 40px;
+  background-color: greenyellow;
+  float: left;
+}
+.register-content .main .main-form .validateCode .code img {
+  width: 100%;
+  height: 100%;
+}
+.register-content .main .main-form .telCode input {
+  width: 160px;
+}
+.register-content .main .main-form .telCode .code {
+  width: 110px;
+  margin: 5px;
+  height: 40px;
+  background-color: gainsboro;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.register-content .main .main-form .btn {
+  height: 52px;
+  width: 380px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 52px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+.register-content .main .main-img {
+  width: 330px;
+  float: left;
+}
+.register-content .main .main-img .top {
+  width: 150px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.register-content .main .main-img .top a {
+  font-size: 16px;
+  text-decoration: none;
+}
+.register-content .main .main-img .top a i {
+  float: left;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url("../image/zhuce-icon.png") 0 -50px no-repeat;
+  margin-right: 10px;
+}
+.register-content .main .main-img .bottom {
+  width: 150px;
+  height: 52px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.register-content .main .main-img .bottom a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  text-decoration: none;
+}
+.register-content .main .main-img .bottom a i {
+  float: left;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url("../image/zhuce-icon.png") -50px -50px no-repeat;
+  margin-right: 10px;
+}
+.register-content .main .main-img .bottom a span {
+  float: left;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer p:nth-of-type(1) {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer p:nth-of-type(1) a {
+  margin-right: 5px;
+}
+.modal.mymodal .modal-header #myModalLabel {
+  font-size: 18px;
+  font-weight: 700;
+}
+.modal.mymodal .modal-header .close span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.modal.mymodal .modal-body {
+  width: 100%;
+  height: 200px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 200px;
+  text-align: center;
+}
+.modal.mymodal .modal-body #time {
+  font-size: 18px;
+  font-weight: 700;
+}

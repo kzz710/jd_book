@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object  type="jd_BookShop.Controllers.BooksController, jd_BookShop" singleton="false" >
+    <property name="booksService" ref="booksService" />
+  </object>
+  <object  type="jd_BookShop.Controllers.UsersController, jd_BookShop" singleton="false" >
+    <property name="UsersService" ref="usersService" />
+    <property name="cartService" ref="cartService" />
+  </object>
+
+  <object  type="jd_BookShop.Controllers.RegisterController, jd_BookShop" singleton="false" >
+    <property name="UsersService" ref="usersService" />
+  </object>
+
+  <object  type="jd_BookShop.Controllers.ProductController, jd_BookShop" singleton="false" >
+    <property name="booksService" ref="booksService" />
+  </object>
+
+  <object  type="jd_BookShop.Controllers.BookCommentController, jd_BookShop" singleton="false" >
+    <property name="bookCommentService" ref="bookCommentService" />
+    <property name="articel_WordsService" ref="articel_WordsService" />
+  </object>
+
+  <object  type="jd_BookShop.Controllers.AdminController, jd_BookShop" singleton="false" >
+    <property name="articel_WordsService" ref="articel_WordsService" />
+  </object>
+
+  <object  type="jd_BookShop.Controllers.CartController, jd_BookShop" singleton="false" >
+    <property name="booksService" ref="booksService" />
+    <property name="usersService" ref="usersService" />
+    <property name="cartService" ref="cartService" />
+    <property name="addressInfoService" ref="addressInfoService" />
+  </object>
+
+  <object  type="jd_BookShop.Controllers.AddressInfoController, jd_BookShop" singleton="false" >
+    <property name="addressInfoService" ref="addressInfoService" />
+    <property name="cartService" ref="cartService" />
+  </object>
+  
+  <object  type="jd_BookShop.Controllers.OrdersController, jd_BookShop" singleton="false" >
+    <property name="ordersService" ref="ordersService" />
+    <property name="orderBookService" ref="orderBookService" />
+    <property name="cartService" ref="cartService" />
+    <property name="addressInfoService" ref="addressInfoService" />
+    <property name="booksService" ref="booksService" />
+  </object>
+
+  <!--intentionally do NOT register the AccountController or the ValuesController with the container; demonstrates that the underlying
+  default controller factory will properly (attempt to!) resolve all controllers not registered with Spring.NET
+  using its default controller resolution behavoir-->
+  <!--<object type="Spring.Mvc4QuickStart.Controllers.AccountController, Spring.Mvc4QuickStart" singleton="false" />-->
+  <!--<object type="Spring.Mvc4QuickStart.Controllers.ValuesController, Spring.Mvc4QuickStart" singleton="false" />-->
+</objects>

@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "BooksAdmin";
+}
+
+<script src="/jd_BookShop/js/jquery-3.2.1.min.js"></script>
+<script>
+    $(function () {
+        $("button").click(function () {
+            $.get("/Books/CreateHtmlPage", function (data) {
+                if (data == "ok") {
+                    alert("生成成功");
+                }
+            });
+        });
+    });
+</script>
+<style>
+    button {
+        width: 200px;
+        height: 60px;
+        line-height: 44px;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        background-color: #2aabd2;
+        margin-bottom: 20px;
+    }
+</style>
+<button>生成静态页面</button>

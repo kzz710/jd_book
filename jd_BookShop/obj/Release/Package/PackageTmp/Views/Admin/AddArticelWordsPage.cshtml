@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="京东图书,折扣图书,网上图书商城,小说,经济,管理,绘本,书,图书,电子书,畅销书,新书,打折,京东JD.COM"/>
+    <meta name="description" content="京东JD.COM图书频道,专业提供网上购书,折扣图书,小说,经济,管理,畅销书,新书等的报价、促销、评论、导购、图片等相关信息!为您提供愉悦的网上购物体验!"/>
+    <title>添加敏感词</title>
+    <link rel="icon" href="//www.jd.com/favicon.ico" mce_href="//www.jd.com/favicon.ico" type="image/x-icon">
+</head>
+<script>
+  
+</script>
+<body>
+    <div>@ViewBag.Msg</div>
+    <form action="/Admin/AddArticelWords" method="post">
+        <textarea name="txtMsg" rows="10" cols="50"></textarea><br />
+        <input type="submit" value="添加词库 " />
+    </form>
+</body>
+</html>

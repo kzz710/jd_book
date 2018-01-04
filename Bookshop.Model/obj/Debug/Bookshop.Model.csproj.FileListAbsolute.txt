@@ -1,0 +1,10 @@
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Debug\Bookshop.Model.dll.config
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Debug\Bookshop.Model.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Debug\Bookshop.Model.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Debug\EntityFramework.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Debug\EntityFramework.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\obj\Debug\Bookshop.Model.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\obj\Debug\Bookshop.Model.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\obj\Debug\Bookshop.Model.csprojResolveAssemblyReference.cache

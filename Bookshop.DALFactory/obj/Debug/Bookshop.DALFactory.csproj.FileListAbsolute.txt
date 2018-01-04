@@ -1,0 +1,16 @@
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.DALFactory.dll.config
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.DALFactory.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.DALFactory.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.DAL.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.IDAL.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\EntityFramework.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.Model.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.DAL.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.IDAL.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\EntityFramework.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Bookshop.Model.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\obj\Debug\Bookshop.DALFactory.csprojResolveAssemblyReference.cache
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\obj\Debug\Bookshop.DALFactory.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.DALFactory\obj\Debug\Bookshop.DALFactory.pdb

@@ -1,0 +1,627 @@
+
+.haveAddress {
+  background-color: #fff;
+}
+.haveAddress h2 {
+  width: 100%;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  color: black;
+  padding-left: 10px;
+}
+.haveAddress .no-address {
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 188px;
+}
+.haveAddress .no-address i {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 50%;
+  left: 0;
+  margin-top: -64px;
+  background: url("../image/cart_bg.png") -100px -50px no-repeat;
+}
+.haveAddress .no-address .msg {
+  float: left;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.haveAddress .no-address .action {
+  float: left;
+}
+.haveAddress .no-address .action a {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+.haveAddress .have-address table {
+  width: 100%;
+}
+.haveAddress .have-address table thead {
+  width: 100%;
+  background-color: #d4d4d4;
+  width: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+.haveAddress .have-address table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.haveAddress .have-address table tbody tr td {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.haveAddress .have-address table tfoot {
+  background-color: #d4d4d4;
+  height: 40px;
+  line-height: 40px;
+}
+.haveAddress .have-address table tfoot td {
+  text-align: right;
+}
+
+    
+.haveAddress .have-address table tfoot td button {
+  width: 100px;
+  height: 30px;
+  background-color: #d9534f;
+  border: none;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+#goBuy {
+  float:right;
+  width: 100px;
+  height: 30px;
+  background-color: #d9534f;
+  border: none;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+
+.modal-body {
+    font-size:16px;
+    text-align:center;
+} 
+
+.site-nav {
+  background-color: #e3e4e5;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+.site-nav .site-nav-left {
+  float: left;
+  color: #999;
+}
+.site-nav .site-nav-left a {
+  color: #999;
+}
+.site-nav .site-nav-left a:hover {
+  color: red;
+}
+.site-nav .site-nav-left .location {
+  display: inline-block;
+  height: 30px;
+  width: 70px;
+  padding-left: 5px;
+  position: relative;
+}
+.site-nav .site-nav-left .location .city {
+  position: absolute;
+  display: none;
+  top: 30px;
+  left: 0;
+  width: 322px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 99;
+}
+.site-nav .site-nav-left .location .city ul {
+  margin: 10px;
+}
+.site-nav .site-nav-left .location .city li {
+  float: left;
+  width: 60px;
+  height: 30px;
+}
+.site-nav .site-nav-left .location .city li a {
+  padding: 8px;
+}
+.site-nav .site-nav-left .location .city li a.active {
+  background-color: #c91523;
+  color: #fff;
+}
+.site-nav .site-nav-left .location .city li a:hover {
+  background-color: #e3e4e5;
+  color: red;
+}
+.site-nav .site-nav-left .location .city li a.active:hover {
+  background-color: #c91523;
+  color: #fff;
+}
+.site-nav .site-nav-left .location:hover {
+  background-color: #fff;
+  cursor: default;
+}
+.site-nav .site-nav-left .location:hover .city {
+  display: block;
+}
+.site-nav .site-nav-right {
+  float: right;
+  color: #999;
+}
+.site-nav .site-nav-right a {
+  color: #999;
+}
+.site-nav .site-nav-right a.red {
+  color: red;
+}
+.site-nav .site-nav-right a:hover {
+  color: red;
+}
+.site-nav .site-nav-right li {
+  float: left;
+  padding: 0 8px;
+}
+.site-nav .site-nav-right li.line {
+  background-color: #999;
+  padding: 0;
+  width: 1px;
+  height: 12px;
+  margin-top: 9px;
+}
+.site-nav .site-nav-right .myJD:hover {
+  background-color: #fff;
+}
+.site-nav .site-nav-right .myJD:hover .myJD-msg {
+  display: block;
+}
+.site-nav .site-nav-right .myJD {
+  position: relative;
+}
+.site-nav .site-nav-right .myJD .myJD-msg {
+  position: absolute;
+  display: none;
+  width: 302px;
+  background-color: #fff;
+  top: 30px;
+  left: 0;
+  border: 1px solid #cccccc;
+  border-top: none;
+  z-index: 99;
+}
+.site-nav .site-nav-right .myJD .myJD-msg ul {
+  width: 100%;
+  margin: 10px 0;
+}
+.site-nav .site-nav-right .myJD .myJD-msg ul li {
+  float: left;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+}
+.site-nav .site-nav-right .myJD .myJD-msg .myJD-msg-top {
+  height: 100px;
+  border-bottom: 1px solid #cccccc;
+}
+.site-nav .site-nav-right .myJD .myJD-msg .myJD-msg-bottom {
+  height: 60px;
+}
+.site-nav .site-nav-right .customer:hover,
+.site-nav .site-nav-right .webnav:hover {
+  cursor: default;
+  background-color: #fff;
+}
+.site-nav .site-nav-right .customer:hover .customer-msg {
+  display: block;
+}
+.site-nav .site-nav-right .customer {
+  position: relative;
+}
+.site-nav .site-nav-right .customer .customer-msg {
+  position: absolute;
+  display: none;
+  top: 30px;
+  left: 0;
+  width: 182px;
+  border: 1px solid #cccccc;
+  border-top: none;
+  z-index: 99;
+  background-color: #fff;
+}
+.site-nav .site-nav-right .customer .customer-msg dt {
+  color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.site-nav .site-nav-right .customer .customer-msg dd {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  width: 90px;
+  padding-left: 10px;
+}
+.site-nav .site-nav-right .customer .customer-msg dd:nth-of-type(7),
+.site-nav .site-nav-right .customer .customer-msg dd:nth-of-type(8) {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+.site-nav .webnavFather {
+  position: relative;
+}
+.site-nav .webnavFather .webnav-msg {
+  position: absolute;
+  display: none;
+  top: 30px;
+  left: 0px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 99;
+  background-color: #fff;
+}
+.site-nav .webnavFather .webnav-msg dl {
+  width: 24%;
+  float: left;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+.site-nav .webnavFather .webnav-msg dl dt {
+  padding: 20px 10px 10px 10px;
+  color: black;
+}
+.site-nav .webnavFather .webnav-msg dl dd {
+  float: left;
+  width: 33%;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.site-nav .webnavFather .webnav-msg .suline {
+  float: left;
+  width: 1px;
+  height: 170px;
+  margin-top: 20px;
+  background-color: #ccc;
+}
+.search {
+  width: 100%;
+  background-color: #fff;
+}
+.search .search-left {
+  position: relative;
+  float: left;
+  width: 350px;
+}
+.search .search-left a {
+  display: block;
+  padding: 40px 0 20px 0;
+  width: 276px;
+  height: 44px;
+  background: url("../image/logo.png") no-repeat;
+  margin: 10px 0 20px 0;
+}
+.search .search-left .book {
+  position: absolute;
+  top: 25px;
+  left: 170px;
+  background-color: #fff;
+}
+.search .search-left .book span {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+.search .search-center {
+  float: left;
+  width: 540px;
+  padding-top: 20px;
+}
+.search .search-center .search-center-top button {
+  height: 36px;
+  width: 100px;
+  float: right;
+}
+.search .search-center .search-center-top input {
+  width: 375px;
+  height: 36px;
+  float: right;
+}
+.search .search-center .search-center-bottom {
+  margin-left: 65px;
+  margin-top: 5px;
+  float: left;
+}
+.search .search-center .search-center-bottom a {
+  padding: 5px 5px 0 0;
+}
+.search .search-center .search-center-bottom a.active {
+  color: red;
+}
+.search .search-right {
+  padding-top: 20px;
+}
+.search .search-right .highlev {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 10px;
+}
+.search .search-right .mycar {
+  float: left;
+  width: 140px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #F9F9F9;
+  border: 1px solid #DFDFDF;
+  color: red;
+  padding-left: 30px;
+  position: relative;
+}
+.search .search-right .mycar a {
+  color: red;
+}
+.search .search-right .mycar span:nth-of-type(1) {
+  font-size: 20px;
+}
+.search .search-right .mycar span:nth-of-type(2) {
+  background-color: #c91523;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 20px;
+  height: 18px;
+}
+.search .search-right .mycar .mycar-msg {
+  position: absolute;
+  display: none;
+  top: 36px;
+  right: 0;
+  background-color: #fff;
+  width: 250px;
+  height: 100px;
+  line-height: 100px;
+  padding-left: 20px;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.search .search-right .mycar:hover {
+  background-color: #fff;
+  box-shadow: 0px 0px 2px black;
+}
+/*.search .search-right .mycar:hover .mycar-msg {
+  display: block;
+  box-shadow: 0 1px 2px black;
+}*/
+.search .search-right .scan {
+  float: right;
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #F9F9F9;
+  border: 1px solid #DFDFDF;
+  padding-left: 10px;
+  position: relative;
+}
+.search .search-right .scan span {
+  margin-top: 5px;
+  font-size: 20px;
+}
+.search .search-right .scan .erweima {
+  position: absolute;
+  display: none;
+  top: 36px;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.search .search-right .scan:hover .erweima {
+  display: block;
+}
+.cart {
+  background-color: #fff;
+  box-shadow: 0 -1px 8px 1px #000000;
+  margin-top: 10px;
+}
+.cart .no-shopping {
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 188px;
+}
+.cart .no-shopping i {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 50%;
+  left: 0;
+  margin-top: -64px;
+  background: url("../image/cart_bg.png") -100px -50px no-repeat;
+}
+.cart .no-shopping .msg {
+  float: left;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.cart .no-shopping .action {
+  float: left;
+}
+.cart .no-shopping .action a {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+.cart .have-shopping h1 {
+  font-size: 16px;
+  padding: 20px;
+}
+.cart .have-shopping table {
+  width: 100%;
+}
+.cart .have-shopping table thead {
+  width: 100%;
+  background-color: #cccccc;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.cart .have-shopping table tbody tr {
+  border: 1px solid #dddddd;
+}
+.cart .have-shopping table tbody tr td {
+  text-align: center;
+}
+.cart .have-shopping table tbody tr td a {
+  text-decoration: none;
+  color: black;
+}
+.cart .have-shopping table tbody tr td a:link {
+  text-decoration: none;
+  color: black;
+}
+.cart .have-shopping table tbody tr td a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.cart .have-shopping table tbody tr td input {
+  width: 40px;
+  text-align: center;
+}
+.cart .have-shopping table tbody tr td .numBtn {
+  display: inline-block;
+  width: 20px;
+  background-color: #cccccc;
+  padding: 2px;
+}
+.cart .have-shopping table tbody tr td .numBtn:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+.cart .have-shopping table tbody tr .commodity {
+  text-align: left;
+}
+.cart .have-shopping table tbody tr .commodity img {
+  width: 100px;
+  height: 100px;
+  margin-top:5px;
+  margin-bottom:5px;
+  float: left;
+}
+.cart .have-shopping table tbody tr .commodity .title {
+  float: left;
+  height: 80px;
+  margin-top: 15px;
+  padding-left:10px;
+  line-height: 80px;
+  width: 280px;
+  overflow: hidden;
+}
+.cart .have-shopping table tfoot {
+  width: 100%;
+  background-color: #cccccc;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+}
+.cart .have-shopping table tfoot .totalPrice {
+  color: red;
+  font-size: 16px;
+}
+.cart .have-shopping table tfoot #goBuy {
+  background-color: #c9302c;
+  width: 100px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  margin: 0 2px 0 10px;
+}
+.footer {
+  background-color: #fff;
+}
+.footer .footer-top-slogen {
+  background-color: #F5F5F5;
+  height: 94px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.footer .footer-top-slogen-icon {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+}
+.footer .footer-top-slogen-icon1 {
+  margin-left: -604px;
+}
+.footer .footer-top-slogen-icon2 {
+  margin-left: -302px;
+}
+.footer .footer-top-slogen-icon4 {
+  margin-left: 302px;
+}
+.footer .footer-top-shopping dl {
+  float: left;
+  width: 199px;
+}
+.footer .footer-top-shopping .last-dl {
+  width: 100px;
+}
+.footer .footer-top-shopping dt,
+.footer .coverage h3 {
+  font: 400 16px/24px "微软雅黑";
+  height: 34px;
+}
+.footer .footer-top-shopping dd {
+  line-height: 20px;
+}
+.footer .coverage {
+  float: right;
+  height: 169px;
+  width: 186px;
+  background: url("../image/china.png") no-repeat left bottom;
+  padding-left: 40px;
+  margin-right: 40px;
+}
+.footer .coverage a {
+  float: right;
+}
+.footer .footer-bottom {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 20px;
+  padding: 20px 0 30px;
+  text-align: center;
+}
+.footer .footer-bottom a {
+  margin: 0 10px;
+}
+.footer .footer-bottom-copyright {
+  line-height: 24px;
+  padding: 10px 0;
+}

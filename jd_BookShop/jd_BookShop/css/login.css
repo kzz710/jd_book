@@ -1,0 +1,313 @@
+.w {
+  width: 990px;
+  margin: 0 auto;
+}
+body {
+  background-color: #fff;
+}
+.login-logo {
+  background-color: #fff;
+  height: 110px;
+}
+.login-logo .logo-img a {
+  display: block;
+  width: 160px;
+  height: 50px;
+  float: left;
+  background: url("../image/zhuce-icon.png") 0 0 no-repeat;
+  margin-top: 25px;
+}
+.login-logo .logo-title {
+  float: left;
+  font-size: 24px;
+  margin-top: 35px;
+}
+.login-logo .logo-login {
+  float: right;
+  margin-top: 55px;
+  position: relative;
+}
+.login-logo .logo-login i {
+  position: absolute;
+  top: 4px;
+  left: -20px;
+  width: 18px;
+  height: 14px;
+  background: url("../image/q-icon.png") center no-repeat;
+}
+.login-logo .logo-login span a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.login-warning {
+  background-color: #ffeaf1;
+}
+.login-warning .content {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  color: orange;
+}
+.login-warning .content i {
+  position: absolute;
+  top: 12px;
+  left: 89px;
+  width: 17px;
+  height: 18px;
+  background: url("../image/zhuce-icon.png") -68px -99px no-repeat;
+}
+.login-warning .content span {
+  color: black;
+}
+.login-main {
+  background-color: #2EBE89;
+}
+.login-main .main {
+  position: relative;
+}
+.login-main .main .main-img {
+  width: 100%;
+  height: 475px;
+  background: url("../image/loginBG.jpg") center no-repeat;
+}
+.login-main .main .main-login {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 346px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.login-main .main .main-login .title {
+  height: 55px;
+}
+.login-main .main .main-login .title .saoma,
+.login-main .main .main-login .title .zhanghu {
+  width: 173px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+}
+.login-main .main .main-login .title .saoma a,
+.login-main .main .main-login .title .zhanghu a {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  text-decoration: none;
+  border-right: 1px solid #dddddd;
+}
+.login-main .main .main-login .title .saoma a:hover,
+.login-main .main .main-login .title .zhanghu a:hover {
+  color: red;
+  font-weight: 700;
+}
+.login-main .main .main-login .title .saoma a.active,
+.login-main .main .main-login .title .zhanghu a.active {
+  color: red;
+  font-weight: 700;
+}
+.login-main .main .main-login .content-zhanghu {
+  padding: 30px 20px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+.login-main .main .main-login .content-zhanghu .errorMsg {
+  height: 25px;
+  width: 268px;
+  background-color: #ffeaf1;
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  padding-left: 40px;
+  line-height: 25px;
+  color: red;
+  display: none;
+}
+.login-main .main .main-login .content-zhanghu .errorMsg i {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  background: url("../image/pwd-icons-new.png") -104px -49px no-repeat;
+}
+.login-main .main .main-login .content-zhanghu .login-name,
+.login-main .main .main-login .content-zhanghu .login-pwd {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  height: 38px;
+  overflow: hidden;
+}
+.login-main .main .main-login .content-zhanghu .login-name label,
+.login-main .main .main-login .content-zhanghu .login-pwd label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 38px;
+  background: url("../image/pwd-icons-new.png") 0 0 no-repeat;
+  border-right: 1px solid #ddd;
+}
+.login-main .main .main-login .content-zhanghu .login-name .pwd,
+.login-main .main .main-login .content-zhanghu .login-pwd .pwd {
+  background: url("../image/pwd-icons-new.png") -48px 0 no-repeat;
+}
+.login-main .main .main-login .content-zhanghu .login-name input,
+.login-main .main .main-login .content-zhanghu .login-pwd input {
+  height: 38px;
+  width: 100%;
+  padding-left: 50px;
+  border: none;
+}
+.login-main .main .main-login .content-zhanghu .login-name input:focus,
+.login-main .main .main-login .content-zhanghu .login-pwd input:focus {
+  outline: none;
+}
+.login-main .main .main-login .content-zhanghu a {
+  float: right;
+  text-decoration: none;
+}
+.login-main .main .main-login .content-zhanghu .btnLogin {
+  width: 100%;
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  height: 35px;
+  line-height: 33px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.login-main .main .main-login .content-saoma {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  position: relative;
+  display: none;
+}
+.login-main .main .main-login .content-saoma .maImg {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  margin-left: -73.5px;
+}
+.login-main .main .main-login .content-saoma .maImg img {
+  width: 147px;
+  height: 147px;
+}
+.login-main .main .main-login .content-saoma .maImg .helpImg {
+  float: right;
+  display: none;
+}
+.login-main .main .main-login .content-saoma .maImg .helpImg img {
+  width: 141px;
+  height: 168px;
+  padding-left: 20px;
+  margin-top: -10px;
+}
+.login-main .main .main-login .content-saoma .msg {
+  margin-top: 187px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-main .main .main-login .content-saoma .msg a {
+  text-decoration: none;
+  color: red;
+  margin-right: 10px;
+}
+.login-main .main .main-login .content-saoma .des {
+  text-align: center;
+}
+.login-main .main .main-login .content-saoma .des span {
+  margin: 0 20px;
+  position: relative;
+}
+.login-main .main .main-login .content-saoma .des span i {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  left: -32px;
+}
+.login-main .main .main-login .content-saoma .des span:nth-of-type(1) i {
+  background: url("../image/qr-coagent.png") 0 0 no-repeat;
+}
+.login-main .main .main-login .content-saoma .des span:nth-of-type(2) i {
+  background: url("../image/qr-coagent.png") -27px 0 no-repeat;
+}
+.login-main .main .main-login .content-saoma .des span:nth-of-type(3) i {
+  background: url("../image/qr-coagent.png") -54px 0 no-repeat;
+}
+.login-main .main .main-login .bottom {
+  background-color: #ffffff;
+  height: 30px;
+  padding: 10px 20px;
+}
+.login-main .main .main-login .bottom .qq,
+.login-main .main .main-login .bottom .wx {
+  float: left;
+  height: 100%;
+  width: 70px;
+  line-height: 30px;
+}
+.login-main .main .main-login .bottom .qq a,
+.login-main .main .main-login .bottom .wx a {
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 10px;
+  border-right: 1px solid #000000;
+  position: relative;
+}
+.login-main .main .main-login .bottom .qq a i,
+.login-main .main .main-login .bottom .wx a i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 19px;
+  height: 18px;
+  background: url("../image/QQ-weixin.png") 0 0 no-repeat;
+}
+.login-main .main .main-login .bottom .wx a {
+  border-right: none;
+}
+.login-main .main .main-login .bottom .wx a i {
+  background: url("../image/QQ-weixin.png") -19px 0 no-repeat;
+}
+.login-main .main .main-login .bottom .register {
+  float: right;
+  height: 100%;
+  line-height: 30px;
+}
+.login-main .main .main-login .bottom .register a {
+  text-decoration: none;
+  font-size: 14px;
+  color: red;
+  position: relative;
+}
+.login-main .main .main-login .bottom .register a i {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0;
+  left: -22px;
+  background: url("../image/pwd-icons-new.png") -104px -74px no-repeat;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.footer p:nth-of-type(1) {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer p:nth-of-type(1) a {
+  margin-right: 5px;
+}

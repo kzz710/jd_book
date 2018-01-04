@@ -1,0 +1,9 @@
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Release\Bookshop.Model.dll.config
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Release\Bookshop.Model.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Release\Bookshop.Model.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Release\EntityFramework.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Release\Newtonsoft.Json.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Release\EntityFramework.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\bin\Release\Newtonsoft.Json.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\obj\Release\Bookshop.Model.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Model\obj\Release\Bookshop.Model.pdb

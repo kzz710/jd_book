@@ -1,0 +1,11 @@
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\Bookshop.Common.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\Bookshop.Common.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\Commons.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\log4net.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\Memcached.ClientLibrary.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\Newtonsoft.Json.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\bin\Release\Newtonsoft.Json.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\obj\Release\Bookshop.Common.csprojResolveAssemblyReference.cache
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\obj\Release\Bookshop.Common.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.Common\obj\Release\Bookshop.Common.pdb

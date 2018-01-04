@@ -1,0 +1,13 @@
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Bookshop.IBLL.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Bookshop.IBLL.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Bookshop.IDAL.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Bookshop.Model.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\EntityFramework.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Newtonsoft.Json.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Bookshop.IDAL.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Bookshop.Model.pdb
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\EntityFramework.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\bin\Release\Newtonsoft.Json.xml
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\obj\Release\Bookshop.IBLL.csprojResolveAssemblyReference.cache
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\obj\Release\Bookshop.IBLL.dll
+C:\Users\kuangz\documents\visual studio 2012\Projects\jd_BookShop\Bookshop.IBLL\obj\Release\Bookshop.IBLL.pdb

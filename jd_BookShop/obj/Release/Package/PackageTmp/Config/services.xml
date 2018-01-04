@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <object type="Bookshop.BLL.BooksService, Bookshop.BLL" singleton="false" name="booksService" >
+  </object>
+
+  <object type="Bookshop.BLL.UsersService, Bookshop.BLL" singleton="false" name="usersService" >
+  </object>
+  
+  <object type="Bookshop.BLL.BookCommentService, Bookshop.BLL" singleton="false" name="bookCommentService" >
+  </object>
+
+  <object type="Bookshop.BLL.Articel_WordsService, Bookshop.BLL" singleton="false" name="articel_WordsService" >
+  </object>
+
+  <object type="Bookshop.BLL.CartService, Bookshop.BLL" singleton="false" name="cartService" >
+  </object>
+
+  <object type="Bookshop.BLL.AddressInfoService, Bookshop.BLL" singleton="false" name="addressInfoService" >
+  </object>
+
+  <object type="Bookshop.BLL.OrdersService, Bookshop.BLL" singleton="false" name="ordersService" >
+  </object>
+
+  <object type="Bookshop.BLL.OrderBookService, Bookshop.BLL" singleton="false" name="orderBookService" >
+  </object>
+</objects>
+
