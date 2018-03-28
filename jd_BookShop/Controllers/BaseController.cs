@@ -28,6 +28,7 @@ namespace jd_BookShop.Controllers
                     Users user = SerializeHelper.DeserializeToObject<Users>(obj.ToString());
                     LoginUser = user;
                     MemcacheHelper.Set(sessionId, obj, DateTime.Now.AddMinutes(20));
+                    
                 }
             }
             if (!isSuccess)
